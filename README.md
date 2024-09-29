@@ -46,3 +46,14 @@ All diagrams were created using **draw.io**. To view or edit the diagrams:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/clash-of-clans-diagrams.git
+   ```
+2. Open the `.drawio` files in **draw.io** or view the exported images.
+
+## Project Details
+- **Course**: Software Engineering
+- **Tools**: draw.io
+- **Diagrams**: Use Case, Activity, Class, Sequence
+- **Objective**: To model the game Clash of Clans using standard software engineering practices.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
