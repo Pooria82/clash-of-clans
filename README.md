@@ -45,7 +45,7 @@ All diagrams were created using **draw.io**. To view or edit the diagrams:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/clash-of-clans-diagrams.git
+   git clone https://github.com/Pooria82/clash-of-clans.git
    ```
 2. Open the `.drawio` files in **draw.io** or view the exported images.
 
