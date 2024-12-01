@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36" version="24.8.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0">
   <diagram name="Page-1" id="9MmS48OTrlnhJYMg2d17">
-    <mxGraphModel dx="728" dy="1420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="560" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,13 +19,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Xa4IVRnola5WsasD5jRd-4" value="&lt;b&gt;بازیکن&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="205" y="340" width="30" height="60" as="geometry" />
+          <mxGeometry x="201" y="272.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Xa4IVRnola5WsasD5jRd-5" value="&lt;b&gt;پایگاه داده&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="865" y="375" width="30" height="60" as="geometry" />
+          <mxGeometry x="866" y="377" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Xa4IVRnola5WsasD5jRd-6" value="برنامه ریزی حمله" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="490" y="342.5" width="120" height="55" as="geometry" />
+          <mxGeometry x="490" y="348" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Xa4IVRnola5WsasD5jRd-7" value="ذخیره و مشاهده گزارش‌ها" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="490" y="275" width="120" height="55" as="geometry" />
@@ -35,11 +35,17 @@
             <mxPoint x="460" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xa4IVRnola5WsasD5jRd-9" value="&lt;b&gt;تایمر&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="205" y="445" width="30" height="60" as="geometry" />
+        <mxCell id="VPZUBne5TuewseN2EeOJ-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;endArrow=none;endFill=0;" edge="1" parent="1" source="Xa4IVRnola5WsasD5jRd-9" target="Xa4IVRnola5WsasD5jRd-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Xa4IVRnola5WsasD5jRd-11" value="انتخاب و ارسال آیتم به نقشه" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="513" y="505" width="75" height="70" as="geometry" />
+        <mxCell id="VPZUBne5TuewseN2EeOJ-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="Xa4IVRnola5WsasD5jRd-9" target="Xa4IVRnola5WsasD5jRd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa4IVRnola5WsasD5jRd-9" value="&lt;b&gt;تایمر&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="201" y="514" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xa4IVRnola5WsasD5jRd-11" value="&lt;span style=&quot;font-family: &amp;quot;B Nazanin&amp;quot;;&quot; dir=&quot;RTL&quot; lang=&quot;FA&quot;&gt;&lt;font&gt;انجام دادن حمله&lt;/font&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="494.5" y="513" width="111" height="62" as="geometry" />
         </mxCell>
         <mxCell id="Xa4IVRnola5WsasD5jRd-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" source="Xa4IVRnola5WsasD5jRd-7" target="Xa4IVRnola5WsasD5jRd-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -56,10 +62,13 @@
         <mxCell id="Xa4IVRnola5WsasD5jRd-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" source="Xa4IVRnola5WsasD5jRd-11" target="Xa4IVRnola5WsasD5jRd-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Xa4IVRnola5WsasD5jRd-16" value="اجرای حمله" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="480" y="405" width="140" height="70" as="geometry" />
+        <mxCell id="VPZUBne5TuewseN2EeOJ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" edge="1" parent="1" source="Xa4IVRnola5WsasD5jRd-16" target="Xa4IVRnola5WsasD5jRd-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z01G3CL-TO86ubJC6_f2-1" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="1" source="Xa4IVRnola5WsasD5jRd-9">
+        <mxCell id="Xa4IVRnola5WsasD5jRd-16" value="&lt;span style=&quot;line-height: 107%; font-family: Calibri, sans-serif;&quot; dir=&quot;RTL&quot; lang=&quot;FA&quot;&gt;&lt;font&gt;نتظیم مقدمات حمله&lt;/font&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="480" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z01G3CL-TO86ubJC6_f2-1" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" source="Xa4IVRnola5WsasD5jRd-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="276" y="546" as="sourcePoint" />
             <mxPoint x="489" y="371" as="targetPoint" />
