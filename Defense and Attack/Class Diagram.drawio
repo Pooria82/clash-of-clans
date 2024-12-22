@@ -1,20 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
-    <mxGraphModel dx="1647" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="863" dy="253" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OWQCSIat-UT7x9w9hqu4-1" value="Player" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OWQCSIat-UT7x9w9hqu4-1" value="Player" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-294" y="347" width="161" height="267" as="geometry" />
         </mxCell>
-        <mxCell id="OWQCSIat-UT7x9w9hqu4-2" value="+ diamonds: int&lt;div&gt;+ gold: int&lt;/div&gt;&lt;div&gt;+ elixir: int&lt;/div&gt;&lt;div&gt;+ dark elixir: int&lt;/div&gt;&lt;div&gt;+ clan medal: int&lt;/div&gt;&lt;div&gt;+ xp: int&lt;/div&gt;&lt;div&gt;+ level: int&lt;/div&gt;&lt;div&gt;+ army: Army&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OWQCSIat-UT7x9w9hqu4-1">
+        <mxCell id="OWQCSIat-UT7x9w9hqu4-2" value="+ diamonds: int&lt;div&gt;+ gold: int&lt;/div&gt;&lt;div&gt;+ elixir: int&lt;/div&gt;&lt;div&gt;+ dark elixir: int&lt;/div&gt;&lt;div&gt;+ clan medal: int&lt;/div&gt;&lt;div&gt;+ xp: int&lt;/div&gt;&lt;div&gt;+ level: int&lt;/div&gt;&lt;div&gt;+ army: Army&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OWQCSIat-UT7x9w9hqu4-1" vertex="1">
           <mxGeometry y="26" width="161" height="127" as="geometry" />
         </mxCell>
-        <mxCell id="OWQCSIat-UT7x9w9hqu4-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="OWQCSIat-UT7x9w9hqu4-1">
+        <mxCell id="OWQCSIat-UT7x9w9hqu4-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="OWQCSIat-UT7x9w9hqu4-1" vertex="1">
           <mxGeometry y="153" width="161" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="OWQCSIat-UT7x9w9hqu4-4" value="+ buildTroops()&lt;div&gt;+ manageHero()&lt;/div&gt;&lt;div&gt;+ upgradeUnits()&lt;/div&gt;&lt;div&gt;+ requestTroopsFromClan()&lt;/div&gt;&lt;div&gt;+ manageBuildQueue()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OWQCSIat-UT7x9w9hqu4-1">
+        <mxCell id="OWQCSIat-UT7x9w9hqu4-4" value="+ buildTroops()&lt;div&gt;+ manageHero()&lt;/div&gt;&lt;div&gt;+ upgradeUnits()&lt;/div&gt;&lt;div&gt;+ requestTroopsFromClan()&lt;/div&gt;&lt;div&gt;+ manageBuildQueue()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OWQCSIat-UT7x9w9hqu4-1" vertex="1">
           <mxGeometry y="168" width="161" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="Ac14JlJlDhPasDVBVDqp-1" value="Player" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="108" y="151" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ac14JlJlDhPasDVBVDqp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Ac14JlJlDhPasDVBVDqp-3" target="Ac14JlJlDhPasDVBVDqp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ac14JlJlDhPasDVBVDqp-3" value="Manager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-69" y="325" width="384" height="237" as="geometry" />
+        </mxCell>
+        <mxCell id="Ac14JlJlDhPasDVBVDqp-4" value="+ diamonds: int&lt;div&gt;+ gold: int&lt;/div&gt;&lt;div&gt;+ elixir: int&lt;/div&gt;&lt;div&gt;+ dark elixir: int&lt;/div&gt;&lt;div&gt;+ clan medal: int&lt;/div&gt;&lt;div&gt;+ xp: int&lt;/div&gt;&lt;div&gt;+ level: int&lt;/div&gt;&lt;div&gt;+ army: Army&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ac14JlJlDhPasDVBVDqp-3">
+          <mxGeometry y="26" width="384" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="Ac14JlJlDhPasDVBVDqp-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ac14JlJlDhPasDVBVDqp-3">
+          <mxGeometry y="153" width="384" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="Ac14JlJlDhPasDVBVDqp-6" value="+ requestToCreateATroop(name:str, t:WAT)&lt;div&gt;+ requestToAddACombatAgentToTheArmy(a:&lt;span style=&quot;background-color: initial;&quot;&gt;CombatAgent, p:Player&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ requestForSupportTroops(s&lt;span style=&quot;background-color: initial;&quot;&gt;upportText:str, p:Player&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ac14JlJlDhPasDVBVDqp-3">
+          <mxGeometry y="168" width="384" height="69" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
